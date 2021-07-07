@@ -22,6 +22,20 @@ function gratuity(total){
 
 gratuity(20);
 
+let a = "blank";
 
+if (0>1){
+    a = "hello";
+    console.log(a);
+}
+
+console.log(a);
+
+
+(function myFunction(word){
+    console.log("oooo so anonymous! The word is: " + word);
+})("bird");
+
+// myFunction("woah");
 
 
